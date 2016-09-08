@@ -16,6 +16,11 @@
 		9280FE811D48FC6100210E32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9280FE7F1D48FC6100210E32 /* LaunchScreen.storyboard */; };
 		9280FE8C1D48FC6100210E32 /* CoredataTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9280FE8B1D48FC6100210E32 /* CoredataTableTests.m */; };
 		9280FE971D48FC6100210E32 /* CoredataTableUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9280FE961D48FC6100210E32 /* CoredataTableUITests.m */; };
+		92EB84501D4A72B800B967E0 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92EB844F1D4A72B800B967E0 /* TableViewController.m */; };
+		92EB84541D4A7AD000B967E0 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 92EB84521D4A7AD000B967E0 /* TableViewCell.m */; };
+		92EB84551D4A7AD000B967E0 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92EB84531D4A7AD000B967E0 /* TableViewCell.xib */; };
+		92F271D11D49F74400D575AE /* Student+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F271CE1D49F74400D575AE /* Student+CoreDataProperties.m */; };
+		92F271D21D49F74400D575AE /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F271D01D49F74400D575AE /* Student.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,15 @@
 		9280FE921D48FC6100210E32 /* CoredataTableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoredataTableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9280FE961D48FC6100210E32 /* CoredataTableUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoredataTableUITests.m; sourceTree = "<group>"; };
 		9280FE981D48FC6100210E32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92EB844E1D4A72B800B967E0 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		92EB844F1D4A72B800B967E0 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		92EB84511D4A7AD000B967E0 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		92EB84521D4A7AD000B967E0 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		92EB84531D4A7AD000B967E0 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		92F271CD1D49F74400D575AE /* Student+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Student+CoreDataProperties.h"; sourceTree = "<group>"; };
+		92F271CE1D49F74400D575AE /* Student+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Student+CoreDataProperties.m"; sourceTree = "<group>"; };
+		92F271CF1D49F74400D575AE /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		92F271D01D49F74400D575AE /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +97,10 @@
 		9280FE621D48FC6000210E32 = {
 			isa = PBXGroup;
 			children = (
+				92F271CD1D49F74400D575AE /* Student+CoreDataProperties.h */,
+				92F271CE1D49F74400D575AE /* Student+CoreDataProperties.m */,
+				92F271CF1D49F74400D575AE /* Student.h */,
+				92F271D01D49F74400D575AE /* Student.m */,
 				9280FE6D1D48FC6100210E32 /* CoredataTable */,
 				9280FE8A1D48FC6100210E32 /* CoredataTableTests */,
 				9280FE951D48FC6100210E32 /* CoredataTableUITests */,
@@ -107,12 +125,17 @@
 				9280FE721D48FC6100210E32 /* AppDelegate.m */,
 				9280FE741D48FC6100210E32 /* ViewController.h */,
 				9280FE751D48FC6100210E32 /* ViewController.m */,
+				92EB844E1D4A72B800B967E0 /* TableViewController.h */,
+				92EB844F1D4A72B800B967E0 /* TableViewController.m */,
 				9280FE771D48FC6100210E32 /* Main.storyboard */,
 				9280FE7D1D48FC6100210E32 /* Assets.xcassets */,
 				9280FE7F1D48FC6100210E32 /* LaunchScreen.storyboard */,
 				9280FE821D48FC6100210E32 /* Info.plist */,
 				9280FE7A1D48FC6100210E32 /* CoredataTable.xcdatamodeld */,
 				9280FE6E1D48FC6100210E32 /* Supporting Files */,
+				92EB84511D4A7AD000B967E0 /* TableViewCell.h */,
+				92EB84521D4A7AD000B967E0 /* TableViewCell.m */,
+				92EB84531D4A7AD000B967E0 /* TableViewCell.xib */,
 			);
 			path = CoredataTable;
 			sourceTree = "<group>";
@@ -247,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9280FE811D48FC6100210E32 /* LaunchScreen.storyboard in Resources */,
+				92EB84551D4A7AD000B967E0 /* TableViewCell.xib in Resources */,
 				9280FE7E1D48FC6100210E32 /* Assets.xcassets in Resources */,
 				9280FE791D48FC6100210E32 /* Main.storyboard in Resources */,
 			);
@@ -274,9 +298,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				9280FE761D48FC6100210E32 /* ViewController.m in Sources */,
+				92F271D11D49F74400D575AE /* Student+CoreDataProperties.m in Sources */,
 				9280FE7C1D48FC6100210E32 /* CoredataTable.xcdatamodeld in Sources */,
 				9280FE731D48FC6100210E32 /* AppDelegate.m in Sources */,
 				9280FE701D48FC6100210E32 /* main.m in Sources */,
+				92EB84541D4A7AD000B967E0 /* TableViewCell.m in Sources */,
+				92EB84501D4A72B800B967E0 /* TableViewController.m in Sources */,
+				92F271D21D49F74400D575AE /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,6 +530,7 @@
 				9280FE9D1D48FC6100210E32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9280FE9E1D48FC6100210E32 /* Build configuration list for PBXNativeTarget "CoredataTableTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +539,7 @@
 				9280FEA01D48FC6100210E32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9280FEA11D48FC6100210E32 /* Build configuration list for PBXNativeTarget "CoredataTableUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +548,7 @@
 				9280FEA31D48FC6100210E32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
